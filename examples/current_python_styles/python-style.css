@@ -1,0 +1,68 @@
+/* 
+    =============================================================================
+    Python Ireland specific CSS file.
+    =============================================================================    
+*/
+
+:root {
+
+    /*
+    https://commons.wikimedia.org/wiki/File:Flag_of_Ireland.svg#:~:text=The%20Irish%20Constitution%20says%2C%20%22The,orange%20(code%20%23FF7900).
+    */
+    --irish-flag-green: #009A49;
+    --irish-flag-white: #FFFFFF;
+    --irish-flag-orange: #FF7900;
+
+    --py-ire-green: #009A49;
+    --py-ire-white: #FFFFFF;
+    --py-ire-orange: #FF7900;
+
+    /* Official Python colours: */
+    --python-official-blue-light: #4B8BBE;
+    --python-official-blue-dark: #306998;
+    --python-official-yellow-light: #FFE873;
+    --python-official-yellow-dark: #FFD43B;
+    --python-official-grey: #646464;
+    
+    /*
+    https://maketintsandshades.com/#009a44
+    Note: Lighter and Darker values #5 will be pure black and white - so avoid.
+    All the whight-lighter are pure white, but included for the same of completeness.
+    */
+    /* Green tints */
+    --py-ire-green-darker-1: #007b36;
+    --py-ire-green-darker-2: #005c29;
+    --py-ire-green-darker-3: #003e1b;
+    --py-ire-green-darker-4: #001f0e;
+    --py-ire-green-darker-5: #000000; /*Black*/
+    --py-ire-green-lighter-1: #33ae69;
+    --py-ire-green-lighter-2: #66c28f;
+    --py-ire-green-lighter-3: #99d7b4;
+    --py-ire-green-lighter-4: #ccebda;
+    --py-ire-green-lighter-5: #ffffff; /*white*/
+
+    /* White tints */
+    --py-ire-white-darker-1: #cccccc;
+    --py-ire-white-darker-2: #999999;
+    --py-ire-white-darker-3: #666666;
+    --py-ire-white-darker-4: #333333;
+    --py-ire-white-darker-5: #000000; /*Black*/
+    --py-ire-white-lighter-1: #ffffff; /*white*/
+    --py-ire-white-lighter-2: #ffffff; /*white*/
+    --py-ire-white-lighter-3: #ffffff; /*white*/
+    --py-ire-white-lighter-4: #ffffff; /*white*/
+    --py-ire-white-lighter-5: #ffffff; /*white*/
+
+    /* orange tints */
+    --py-ire-orange-darker-1: #cc6100;
+    --py-ire-orange-darker-2: #994900;
+    --py-ire-orange-darker-3: #663000;
+    --py-ire-orange-darker-4: #331800;
+    --py-ire-orange-darker-5: #000000; /*Black*/
+    --py-ire-orange-lighter-1: #ff9433;
+    --py-ire-orange-lighter-2: #ffaf66;
+    --py-ire-orange-lighter-3: #ffc999;
+    --py-ire-orange-lighter-4: #ffe4cc;
+    --py-ire-orange-lighter-5: #ffffff; /*Black*/
+
+}
